@@ -1,5 +1,6 @@
 import datastructure.builtin.ArrayManipulations
 import datastructure.builtin.ListManipulations
+import datastructure.builtin.MapManipulations
 import datastructure.builtin.SetManipulations
 
 fun main(string: Array<String>){
@@ -23,5 +24,9 @@ fun main(string: Array<String>){
 
     //region Set Manipulations
     SetManipulations.manipulateSets()
+    //endregion
+
+    //region Map Manipulations
+    MapManipulations.manipulatingMaps()
     //endregion
 }

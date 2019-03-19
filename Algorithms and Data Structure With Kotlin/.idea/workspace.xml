@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataclass/Laptop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataclass/Vehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +19,8 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="313">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="e#0#140#0" expanded="true" />
               </folding>
@@ -88,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetManipulations.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetManipulations.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
               <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapManipulations.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -116,8 +116,9 @@
         <option value="$PROJECT_DIR$/src/dataclass/Vehicle.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" />
-        <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" />
+        <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" />
       </list>
     </option>
   </component>
@@ -282,12 +283,12 @@
       <workItem from="1552230908681" duration="6822000" />
       <workItem from="1552419660417" duration="613000" />
       <workItem from="1552595402707" duration="8125000" />
-      <workItem from="1552844951584" duration="16763000" />
+      <workItem from="1552844951584" duration="17993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32323000" />
+    <option name="totallyTimeSpent" value="33553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -465,16 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataclass/Laptop.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -489,10 +480,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
         </state>
       </provider>
     </entry>
