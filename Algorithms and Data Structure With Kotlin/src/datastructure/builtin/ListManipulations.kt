@@ -1,26 +1,34 @@
 package datastructure.builtin
 
+import dataclass.Laptop
+import dataclass.Vehicle
 import java.util.*
 
 class ListManipulations {
     companion object {
         private var stringList: List<String> = initStringList()
         private var intList: List<Int> = initIntList()
-        lateinit var objectList: List<Objects>
+        private var anyList: List<Any> = initAnyList()
         private var mutableStringList: MutableList<String> = initMutableStringList()
         private var mutableIntList: MutableList<Int> = initMutableIntList()
-        lateinit var mutableObjectList: MutableList<Objects>
+        lateinit var mutableAnyList: MutableList<Any>
 
         //region init methods
         private fun initIntList(): List<Int>{
-            var result = listOf(1, 2, 3, 4, 5)
-            return result
+            return listOf(1,2,3,4,5)
         }
         private fun initStringList(): List<String>{
             var result  = listOf("Python", "Java", "nodejs", "Kotlin")
             return result
         }
 
+        private fun initAnyList(): List<Any>{
+            var laptop1 = Laptop("i7", "Rtx-2080", "64GB")
+            var laptop2 = Laptop("i5", "Gtx-1080", "64GB")
+            var car = Vehicle("Car", Locale.UK)
+            car.price = 250000.00
+            return listOf(laptop1, laptop2, car)
+        }
         private fun initMutableStringList(): MutableList<String>{
             var result = mutableListOf<String>()
             result.add("C")
@@ -30,10 +38,12 @@ class ListManipulations {
         }
 
         private fun initMutableIntList(): MutableList<Int>{
-            var result = mutableListOf<Int>()
+            var result = mutableListOf(12, 3, 16, 22, 3, 8, 17, 10, 18, 0)
             for(i in 0..5){
                 result.add(i)
             }
+            result.removeAt(result.count()-1)
+            result.remove(0)
             return result
         }
         //endregion
@@ -53,6 +63,13 @@ class ListManipulations {
             }
         }
 
+        fun printAnyList(){
+            println(anyList)
+            for(i in anyList){
+                println(i)
+            }
+        }
+
         fun printMutableStringList(){
             println(mutableStringList)
             for (i in mutableStringList){
@@ -65,6 +82,11 @@ class ListManipulations {
             for(i in mutableIntList){
                 println(i)
             }
+        }
+
+        fun printSortedIntList(){
+            mutableIntList.sort()
+            println(mutableIntList)
         }
         //endregion
     }

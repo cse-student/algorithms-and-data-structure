@@ -1,5 +1,6 @@
 import datastructure.builtin.ArrayManipulations
 import datastructure.builtin.ListManipulations
+import datastructure.builtin.SetManipulations
 
 fun main(string: Array<String>){
 
@@ -7,13 +8,20 @@ fun main(string: Array<String>){
     println("##### Array Manipulations #####")
     ArrayManipulations.printStringArray()
     ArrayManipulations.printIntArray()
+    ArrayManipulations.printAnyArray()
     //endregion
 
     //region List manipulations
     println("##### List Manipulations #####")
     ListManipulations.printStringList()
     ListManipulations.printIntList()
+    ListManipulations.printAnyList()
     ListManipulations.printMutableStringList()
     ListManipulations.printMutableIntList()
+    ListManipulations.printSortedIntList()
+    //endregion
+
+    //region Set Manipulations
+    SetManipulations.manipulateSets()
     //endregion
 }
