@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataclass/Laptop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataclass/Laptop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="Laptop.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataclass/Laptop.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -40,7 +40,7 @@
       <file leaf-file-name="Vehicle.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataclass/Vehicle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="361">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="ArrayManipulations.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="285">
               <caret line="15" column="81" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="81" />
               <folding>
                 <element signature="e#31#73#0" expanded="true" />
@@ -82,8 +82,8 @@
       <file leaf-file-name="SetManipulations.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+            <state relative-caret-position="199">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -91,8 +91,11 @@
       <file leaf-file-name="MapManipulations.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state relative-caret-position="275">
+              <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+              <folding>
+                <element signature="e#31#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,12 +115,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dataclass/Laptop.kt" />
         <option value="$PROJECT_DIR$/src/dataclass/Vehicle.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" />
-        <option value="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/dataclass/Laptop.kt" />
+        <option value="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" />
       </list>
     </option>
@@ -283,12 +286,12 @@
       <workItem from="1552230908681" duration="6822000" />
       <workItem from="1552419660417" duration="613000" />
       <workItem from="1552595402707" duration="8125000" />
-      <workItem from="1552844951584" duration="17993000" />
+      <workItem from="1552844951584" duration="18652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33553000" />
+    <option name="totallyTimeSpent" value="34212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -303,12 +306,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5081411" side_tool="true" visible="true" weight="0.32944608" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4918589" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4918589" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -439,44 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="81" />
-          <folding>
-            <element signature="e#31#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms and Data Structure With Kotlin.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
-          <folding>
-            <element signature="e#31#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataclass/Laptop.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataclass/Vehicle.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -490,17 +459,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataclass/Vehicle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataclass/Laptop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="e#31#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="81" />
+          <folding>
+            <element signature="e#31#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+        <state relative-caret-position="199">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="275">
+          <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+          <folding>
+            <element signature="e#31#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
