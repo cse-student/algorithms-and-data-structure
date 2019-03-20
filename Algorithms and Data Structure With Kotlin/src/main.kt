@@ -2,6 +2,7 @@ import datastructure.builtin.ArrayManipulations
 import datastructure.builtin.ListManipulations
 import datastructure.builtin.MapManipulations
 import datastructure.builtin.SetManipulations
+import datastructure.custom.LinkedList
 
 fun main(string: Array<String>){
 
@@ -28,5 +29,15 @@ fun main(string: Array<String>){
 
     //region Map Manipulations
     MapManipulations.manipulatingMaps()
+    //endregion
+
+    //region Linked List
+    println("##### Custom Linked List #####")
+    var linkedList = LinkedList(1)
+    for(i in 2..5){
+        linkedList.add(i)
+    }
+    println(linkedList)
+    linkedList.print()
     //endregion
 }
