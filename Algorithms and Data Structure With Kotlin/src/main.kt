@@ -2,6 +2,7 @@ import datastructure.builtin.ArrayManipulations
 import datastructure.builtin.ListManipulations
 import datastructure.builtin.MapManipulations
 import datastructure.builtin.SetManipulations
+import datastructure.custom.BinaryTree
 import datastructure.custom.LinkedList
 
 fun main(string: Array<String>){
@@ -39,5 +40,14 @@ fun main(string: Array<String>){
     }
     println(linkedList)
     linkedList.print()
+    //endregion
+
+    //region Binary Tree
+    var binaryTree = BinaryTree(5)
+    binaryTree.add(4)
+    binaryTree.add(7)
+    binaryTree.add(2)
+    binaryTree.add(3)
+    println(binaryTree.toString())
     //endregion
 }

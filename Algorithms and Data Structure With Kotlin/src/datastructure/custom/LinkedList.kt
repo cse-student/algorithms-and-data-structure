@@ -1,7 +1,7 @@
 package datastructure.custom
 
 class LinkedList(num: Int) {
-    var num:Int? = num
+    var num:Int = num
     var next: LinkedList? = null
 
     fun add(next: Int){
