@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +21,20 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="275">
+              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding>
-                <element signature="e#0#225#0" expanded="true" />
+                <element signature="e#0#313#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InOrderTraversal.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -32,8 +42,8 @@
       <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="275">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,15 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algorithms and Data Structure With Kotlin.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms and Data Structure With Kotlin.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -145,9 +146,10 @@
         <option value="$PROJECT_DIR$/src/dataclass/Laptop.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" />
+        <option value="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
-        <option value="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" />
       </list>
     </option>
   </component>
@@ -186,6 +188,12 @@
               <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="treetraversal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
@@ -319,12 +327,12 @@
       <workItem from="1552230908681" duration="6822000" />
       <workItem from="1552419660417" duration="613000" />
       <workItem from="1552595402707" duration="8125000" />
-      <workItem from="1552844951584" duration="21923000" />
+      <workItem from="1552844951584" duration="24859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37483000" />
+    <option name="totallyTimeSpent" value="40419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -339,12 +347,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5122117" side_tool="true" visible="true" weight="0.32944608" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48778832" visible="true" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48778832" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,7 +392,7 @@
         <state relative-caret-position="95">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#0#225#0" expanded="true" />
+            <element signature="e#0#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -533,6 +541,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InOrderTraversal.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -540,19 +551,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="275">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="275">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <element signature="e#0#225#0" expanded="true" />
+            <element signature="e#0#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
