@@ -5,13 +5,23 @@ import datastructure.custom.BinaryTree
 class InOrderTraversal{
     companion object {
         fun printTree(tree: BinaryTree){
+            var list = buildList(tree)
+            println(list)
+        }
+
+        fun buildList(tree: BinaryTree, list: MutableList<Int>? = null): MutableList<Int>{
+            var lst = list
+            if (lst == null){
+                lst = mutableListOf()
+            }
             if (tree.leftNode != null){
-                printTree(tree.leftNode!!)
+                buildList(tree.leftNode!!, lst)
             }
-            print(tree.self)
+            lst!!.add(tree.self)
             if (tree.rightNode != null){
-                printTree(tree.rightNode!!)
+                buildList(tree.rightNode!!, lst)
             }
+            return lst
         }
     }
 }
