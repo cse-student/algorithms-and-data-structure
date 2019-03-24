@@ -1,11 +1,11 @@
 package datastructure.custom
 
-class BinaryTree(self: Int){
-    var self = self
-    var leftNode: BinaryTree? = null
-    var rightNode: BinaryTree? = null
+class BinaryTree(self: Int): ITree{
+    override var self = self
+    override var leftNode: BinaryTree? = null
+    override var rightNode: BinaryTree? = null
 
-    fun add(num: Int){
+    override fun add(num: Int){
         if (num >= self){
             if(this.rightNode == null){
                 this.rightNode = BinaryTree(num)

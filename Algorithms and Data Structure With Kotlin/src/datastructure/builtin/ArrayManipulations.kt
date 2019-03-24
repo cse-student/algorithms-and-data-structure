@@ -7,8 +7,8 @@ import java.util.*
 class ArrayManipulations {
 
     companion object {
-        var stringArray: Array<String> = initStringArray()
-        var intArray: Array<Int> = initIntArray()
+        private var stringArray: Array<String> = initStringArray()
+        private var intArray: Array<Int> = initIntArray()
         var anyArray: Array<Any> = initAnyArray()
 
         //region init methods

@@ -2,7 +2,7 @@ package algorithms.treetraversal
 
 import datastructure.custom.ITree
 
-class InOrderTraversal{
+class PostOrderTraversal{
     companion object: ITreeTraversal{
         override fun read(tree: ITree, list: MutableList<Int>?): MutableList<Int>{
             var lst = list
@@ -12,10 +12,10 @@ class InOrderTraversal{
             if (tree.leftNode != null){
                 read(tree.leftNode!!, lst)
             }
-            lst!!.add(tree.self)
             if (tree.rightNode != null){
                 read(tree.rightNode!!, lst)
             }
+            lst!!.add(tree.self)
             return lst
         }
     }

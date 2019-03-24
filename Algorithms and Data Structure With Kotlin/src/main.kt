@@ -55,7 +55,7 @@ fun main(string: Array<String>){
     println(binaryTree.toString())
 
     //region Print Tree
-    InOrderTraversal.printTree(binaryTree)
+    InOrderTraversal.print(binaryTree)
     //endregion
 
     //endregion
