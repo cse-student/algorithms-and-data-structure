@@ -1,15 +1,13 @@
 package algorithms.treetraversal
 
+import algorithms.treetraversal.interfaces.ITreeTraversalRecursive
 import datastructure.custom.ITree
 
 class PreOrderTraversal {
-    companion object: ITreeTraversal{
-        override fun read(tree: ITree, list: MutableList<Int>?): MutableList<Int> {
+    companion object: ITreeTraversalRecursive {
+        override fun read(tree: ITree, list: MutableList<Int>): MutableList<Int> {
             var lst = list
             lst!!.add(tree.self)
-            if (lst == null){
-                lst = mutableListOf()
-            }
             if (tree.leftNode != null){
                 PreOrderTraversal.read(tree.leftNode!!, lst)
             }
