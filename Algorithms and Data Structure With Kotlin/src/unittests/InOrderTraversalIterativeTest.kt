@@ -1,11 +1,11 @@
 package unittests
 
-import algorithms.treetraversal.InOrderTraversal
+import algorithms.treetraversal.InOrderTraversalIterative
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class InOrderTraversalTest{
-    var inOrderTraversal = InOrderTraversal
+class InOrderTraversalIterativeTest{
+    var inOrderTraversal = InOrderTraversalIterative
     @Test
     fun binaryTree1InOrderTraversal(){
         //Arrange

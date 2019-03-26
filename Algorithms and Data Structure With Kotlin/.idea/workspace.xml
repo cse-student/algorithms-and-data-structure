@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalIterative.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittests/InOrderTraversalIterativeTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/ITreeTraversal$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/ITreeTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/InOrderTraversal$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/InOrderTraversal$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/InOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/InOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/PreOrderTraversal$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/PreOrderTraversal$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/PreOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/treetraversal/PreOrderTraversal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/InOrderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/InOrderTraversalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/ITreeTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +21,7 @@
       <file leaf-file-name="InOrderTraversal.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="148">
               <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#34#134#0" expanded="true" />
@@ -44,6 +35,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InOrderTraversalTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InOrderTraversalTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-829">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="43" />
               <folding>
                 <element signature="e#19#154#0" expanded="true" />
               </folding>
@@ -81,11 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ITreeTraversal.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversal.kt">
+      <file leaf-file-name="InOrderTraversalIterativeTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unittests/InOrderTraversalIterativeTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <element signature="e#19#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InOrderTraversalIterative.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#34#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,15 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/Constants.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -124,9 +130,9 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -152,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/unittests/ObjectsDeclaration.kt" />
         <option value="$PROJECT_DIR$/src/unittests/Constants.kt" />
         <option value="$PROJECT_DIR$/src/unittests/BinaryTreeTest.kt" />
-        <option value="$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/custom/Tree.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" />
@@ -163,11 +168,13 @@
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/Interfaces/ITreeTraversalRecursive.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/Interfaces/ITreeTraversalIterative.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalIterative.kt" />
-        <option value="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversal.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt" />
+        <option value="$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt" />
+        <option value="$PROJECT_DIR$/src/unittests/InOrderTraversalIterativeTest.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt" />
       </list>
     </option>
   </component>
@@ -210,13 +217,6 @@
               <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="treetraversal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="treetraversal" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +277,9 @@
       <recent name="algorithms.treetraversal.Interfaces" />
       <recent name="algorithms.treetraversal" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="unittests" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -297,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InOrderTraversalTest">
+  <component name="RunManager" selected="JUnit.InOrderTraversalIterativeTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -347,6 +350,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="InOrderTraversalIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms and Data Structure With Kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.InOrderTraversalIterativeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="InOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms and Data Structure With Kotlin" />
       <extension name="coverage">
@@ -361,29 +387,6 @@
       <option name="MAIN_CLASS_NAME" value="unittests.InOrderTraversalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="InOrderTraversalTest.binaryTree1InOrderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms and Data Structure With Kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests" />
-      <option name="MAIN_CLASS_NAME" value="unittests.InOrderTraversalTest" />
-      <option name="METHOD_NAME" value="binaryTree1InOrderTraversal" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -457,17 +460,17 @@
     <list>
       <item itemvalue="JUnit.BinaryTreeTest" />
       <item itemvalue="JUnit.InOrderTraversalTest" />
-      <item itemvalue="JUnit.InOrderTraversalTest.binaryTree1InOrderTraversal" />
       <item itemvalue="JUnit.BinaryTreeTest.binaryTree4Creation" />
       <item itemvalue="JUnit.InOrderTraversalTest.binaryTree4InOrderTraversal" />
+      <item itemvalue="JUnit.InOrderTraversalIterativeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InOrderTraversalIterativeTest" />
         <item itemvalue="JUnit.InOrderTraversalTest" />
         <item itemvalue="JUnit.BinaryTreeTest" />
         <item itemvalue="JUnit.InOrderTraversalTest.binaryTree4InOrderTraversal" />
         <item itemvalue="JUnit.BinaryTreeTest.binaryTree4Creation" />
-        <item itemvalue="JUnit.InOrderTraversalTest.binaryTree1InOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -486,32 +489,11 @@
       <workItem from="1552595402707" duration="8125000" />
       <workItem from="1552844951584" duration="41104000" />
       <workItem from="1553440464422" duration="1221000" />
-      <workItem from="1553451651345" duration="7747000" />
+      <workItem from="1553451651345" duration="10530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTest - 2019.03.24 at 00h 08m 47s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.03.24 at 00h 14m 41s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.03.24 at 23h 05m 03s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest - 2019.03.24 at 23h 05m 10s.xml">
-      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.03.24 at 23h 54m 29s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest_binaryTree4InOrderTraversal - 2019.03.24 at 23h 54m 36s.xml">
-      <configuration name="InOrderTraversalTest.binaryTree4InOrderTraversal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest - 2019.03.24 at 23h 54m 43s.xml">
-      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryTreeTest - 2019.03.26 at 00h 20m 54s.xml">
       <configuration name="BinaryTreeTest" configurationId="JUnit" />
     </history-entry>
@@ -521,9 +503,30 @@
     <history-entry file="InOrderTraversalTest - 2019.03.26 at 00h 28m 53s.xml">
       <configuration name="InOrderTraversalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InOrderTraversalTest - 2019.03.26 at 23h 42m 02s.xml">
+      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalTest - 2019.03.26 at 23h 48m 10s.xml">
+      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalTest - 2019.03.26 at 23h 48m 31s.xml">
+      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalIterativeTest - 2019.03.27 at 00h 06m 47s.xml">
+      <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalIterativeTest - 2019.03.27 at 00h 16m 44s.xml">
+      <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalIterativeTest - 2019.03.27 at 00h 18m 40s.xml">
+      <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InOrderTraversalIterativeTest - 2019.03.27 at 00h 19m 09s.xml">
+      <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65632000" />
+    <option name="totallyTimeSpent" value="68415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -535,21 +538,21 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11397558" side_tool="true" visible="true" weight="0.4037901" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.114654005" side_tool="true" visible="true" weight="0.4037901" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8860244" visible="true" weight="0.4037901" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.885346" visible="true" weight="0.4037901" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4979647" weight="0.39941692" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972863" weight="0.39941692" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,21 +576,23 @@
           <url>file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt</url>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/unittests/InOrderTraversalIterativeTest.kt</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#19#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -849,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -880,27 +878,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unittests/BinaryTreeTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#19#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,23 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#34#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -949,12 +913,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#34#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/BinaryTreeTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#19#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/InOrderTraversalTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-829">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="43" />
           <folding>
             <element signature="e#19#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/custom/BinaryTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/InOrderTraversalIterativeTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#19#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
