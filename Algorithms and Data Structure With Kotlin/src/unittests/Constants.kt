@@ -18,6 +18,21 @@ class Constants {
         }
 
         fun binaryTree3(): BinaryTree{
+            var binaryTree = BinaryTree(2)
+            binaryTree.add(1)
+            binaryTree.add(3)
+            return binaryTree
+        }
+
+        fun binaryTree4(): BinaryTree{
+            var binaryTree = BinaryTree(5)
+            binaryTree.add(3)
+            binaryTree.add(7)
+            binaryTree.add(10)
+            return binaryTree
+        }
+
+        fun binaryTree5(): BinaryTree{
             var binaryTree = BinaryTree(1)
             binaryTree.add(-10)
             binaryTree.add(11)
@@ -28,7 +43,7 @@ class Constants {
             return binaryTree
         }
 
-        fun binaryTree4(): BinaryTree{
+        fun binaryTree6(): BinaryTree{
             var binaryTree = BinaryTree(5)
             binaryTree.add(3)
             binaryTree.add(9)
@@ -39,7 +54,7 @@ class Constants {
             return binaryTree
         }
 
-        fun binaryTree5(): BinaryTree{
+        fun binaryTree7(): BinaryTree{
             var binaryTree = BinaryTree(15)
             binaryTree.add(12)
             binaryTree.add(25)

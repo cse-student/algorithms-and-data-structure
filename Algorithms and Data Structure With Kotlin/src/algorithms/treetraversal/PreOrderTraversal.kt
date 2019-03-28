@@ -2,7 +2,7 @@ package algorithms.treetraversal
 
 import algorithms.treetraversal.interfaces.ITreeTraversalRecursive
 import datastructure.custom.ITree
-
+//Root - Left Node - Right Node
 class PreOrderTraversal {
     companion object: ITreeTraversalRecursive {
         override fun read(tree: ITree, list: MutableList<Int>): MutableList<Int> {

@@ -17,7 +17,6 @@ class InOrderTraversalIterative {
                     stack = add(currentNode.rightNode!!, stack)
                 }
             }
-
             return result
         }
 
