@@ -61,4 +61,26 @@ class PreOrderTraversalTest {
         //Assert
         Assertions.assertEquals(expectedResult, result)
     }
+
+    @Test
+    fun binaryTree6InOrderTraversal(){
+        //Arrange
+        var binaryTree = Constants.binaryTree6()
+        //Act
+        var result = preOrderTraversal.read(binaryTree)
+        var expectedResult = mutableListOf(5,3,1,4,9,7,10)
+        //Assert
+        Assertions.assertEquals(expectedResult, result)
+    }
+
+    @Test
+    fun binaryTree7InOrderTraversal(){
+        //Arrange
+        var binaryTree = Constants.binaryTree7()
+        //Act
+        var result = preOrderTraversal.read(binaryTree)
+        var expectedResult = mutableListOf(15,12,7,5,9,13,25,17,16,30,27,32)
+        //Assert
+        Assertions.assertEquals(expectedResult, result)
+    }
 }
