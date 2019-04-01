@@ -1,11 +1,11 @@
-package unittests
+package unittests.treetraversals
 
-import algorithms.treetraversal.PostOrderTraversal
+import algorithms.treetraversal.PostOrderTraversalIterative
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class PostOrderTraversalTest {
-    var postOrderTraversal = PostOrderTraversal
+class PostOrderTraversalIterativeTest {
+    var postOrderTraversal = PostOrderTraversalIterative
     @Test
     fun binaryTree1PostOrderTraversal() {
         //Arrange

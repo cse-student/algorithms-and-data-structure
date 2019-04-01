@@ -1,4 +1,4 @@
-package unittests
+package unittests.treetraversals
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
@@ -24,6 +24,26 @@ class BinaryTreeTest{
     @Test
     fun binaryTree3Creation(){
         var binaryTree = Constants.binaryTree3()
+        assertEquals(2, binaryTree.self)
+        //Level 1
+        assertEquals(1, binaryTree.leftNode!!.self)
+        assertEquals(3, binaryTree.rightNode!!.self)
+    }
+
+    @Test
+    fun binaryTree4Creation(){
+        var binaryTree = Constants.binaryTree4()
+        assertEquals(5, binaryTree.self)
+        //Level 1
+        assertEquals(3, binaryTree.leftNode!!.self)
+        assertEquals(7, binaryTree.rightNode!!.self)
+        //Level 2
+        assertEquals(10, binaryTree.rightNode!!.rightNode!!.self)
+    }
+
+    @Test
+    fun binaryTree5Creation(){
+        var binaryTree = Constants.binaryTree5()
         assertEquals(1, binaryTree.self)
         //Level 1
         assertEquals(-10, binaryTree.leftNode!!.self)
@@ -37,8 +57,8 @@ class BinaryTreeTest{
     }
 
     @Test
-    fun binaryTree4Creation(){
-        var binaryTree = Constants.binaryTree4()
+    fun binaryTree6Creation(){
+        var binaryTree = Constants.binaryTree6()
         assertEquals(5, binaryTree.self)
         //Level 1
         assertEquals(3, binaryTree.leftNode!!.self)
@@ -54,8 +74,8 @@ class BinaryTreeTest{
     }
 
     @Test
-    fun binaryTree5Creation(){
-        var binaryTree = Constants.binaryTree5()
+    fun binaryTree7Creation(){
+        var binaryTree = Constants.binaryTree7()
         assertEquals(15, binaryTree.self)
         //Level 1
         assertEquals(12, binaryTree.leftNode!!.self)

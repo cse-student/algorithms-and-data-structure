@@ -1,4 +1,4 @@
-package unittests
+package unittests.treetraversals
 
 import algorithms.treetraversal.InOrderTraversal
 import org.junit.jupiter.api.Assertions
