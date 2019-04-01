@@ -8,7 +8,7 @@ class PreOrderTraversalIterativeTest {
     var preOrderTraversal = PreOrderTraversalIterative
 
     @Test
-    fun binaryTree1InOrderTraversal(){
+    fun binaryTree1PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree1()
         //Act
@@ -19,7 +19,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree2InOrderTraversal(){
+    fun binaryTree2PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree2()
         //Act
@@ -30,7 +30,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree3InOrderTraversal(){
+    fun binaryTree3PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree3()
         //Act
@@ -41,7 +41,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree4InOrderTraversal(){
+    fun binaryTree4PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree4()
         //Act
@@ -52,7 +52,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree5InOrderTraversal(){
+    fun binaryTree5PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree5()
         //Act
@@ -63,7 +63,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree6InOrderTraversal(){
+    fun binaryTree6PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree6()
         //Act
@@ -74,7 +74,7 @@ class PreOrderTraversalIterativeTest {
     }
 
     @Test
-    fun binaryTree7InOrderTraversal(){
+    fun binaryTree7PreOrderTraversal(){
         //Arrange
         var binaryTree = Constants.binaryTree7()
         //Act
