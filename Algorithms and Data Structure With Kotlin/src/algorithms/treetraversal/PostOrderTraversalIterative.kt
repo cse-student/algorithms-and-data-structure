@@ -7,11 +7,11 @@ import java.util.*
 class PostOrderTraversalIterative{
     companion object: ITreeTraversalIterative {
         override fun read(tree: ITree): MutableList<Int> {
-            var result = mutableListOf<Int>()
+            val result = mutableListOf<Int>()
             var stack = add(tree)
             var tempNode:ITree? = null
             while (!stack.isEmpty()) {
-                var currentNode = stack.peek()
+                val currentNode = stack.peek()
                 if (isLeaf(currentNode)){
                     result.add(currentNode.self)
                     tempNode = stack.pop()

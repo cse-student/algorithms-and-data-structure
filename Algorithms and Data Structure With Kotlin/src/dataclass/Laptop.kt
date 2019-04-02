@@ -16,5 +16,4 @@ data class Laptop (
         //primary constructor must be called eventually in kotlin
     }
 
-    constructor(cpu: String, gpu: String, price: Double): this(cpu, gpu, null, price)
 }

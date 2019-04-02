@@ -7,7 +7,7 @@ import unittests.treetraversals.constants.Constants
 class BinaryTreeTest{
     @Test
     fun binaryTree1Creation(){
-        var binaryTree = Constants.binaryTree1()
+        val binaryTree = Constants.binaryTree1()
         //Level 1
         assertEquals(1, binaryTree.self)
         assertEquals(2, binaryTree.rightNode!!.self)
@@ -15,7 +15,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree2Creation(){
-        var binaryTree = Constants.binaryTree2()
+        val binaryTree = Constants.binaryTree2()
         assertEquals(1, binaryTree.self)
         //Level 1
         assertEquals(2, binaryTree.rightNode!!.self)
@@ -24,7 +24,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree3Creation(){
-        var binaryTree = Constants.binaryTree3()
+        val binaryTree = Constants.binaryTree3()
         assertEquals(2, binaryTree.self)
         //Level 1
         assertEquals(1, binaryTree.leftNode!!.self)
@@ -33,7 +33,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree4Creation(){
-        var binaryTree = Constants.binaryTree4()
+        val binaryTree = Constants.binaryTree4()
         assertEquals(5, binaryTree.self)
         //Level 1
         assertEquals(3, binaryTree.leftNode!!.self)
@@ -44,7 +44,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree5Creation(){
-        var binaryTree = Constants.binaryTree5()
+        val binaryTree = Constants.binaryTree5()
         assertEquals(1, binaryTree.self)
         //Level 1
         assertEquals(-10, binaryTree.leftNode!!.self)
@@ -59,7 +59,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree6Creation(){
-        var binaryTree = Constants.binaryTree6()
+        val binaryTree = Constants.binaryTree6()
         assertEquals(5, binaryTree.self)
         //Level 1
         assertEquals(3, binaryTree.leftNode!!.self)
@@ -76,7 +76,7 @@ class BinaryTreeTest{
 
     @Test
     fun binaryTree7Creation(){
-        var binaryTree = Constants.binaryTree7()
+        val binaryTree = Constants.binaryTree7()
         assertEquals(15, binaryTree.self)
         //Level 1
         assertEquals(12, binaryTree.leftNode!!.self)

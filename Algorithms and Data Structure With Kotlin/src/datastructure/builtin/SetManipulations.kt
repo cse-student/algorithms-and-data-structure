@@ -5,14 +5,14 @@ import dataclass.Laptop
 class SetManipulations{
     companion object {
         fun manipulateSets(){
-            var set = mutableSetOf("C", "Python", "Java", "C#", "C++", "nodejs", "lisp")
+            val set = mutableSetOf("C", "Python", "Java", "C#", "C++", "nodejs", "lisp")
             println(set)
             set.add("kotlin")
             println(set) //As you can see kotlin was added successfully
             set.add("kotlin")
             println(set) //kotlin has not been added to the set, as sets does not allow duplicate
 
-            var laptops = mutableSetOf<Laptop>()
+            val laptops = mutableSetOf<Laptop>()
             laptops.add(Laptop("i7", "Rtx-2080", "64GB"))
             laptops.add(Laptop("i7", "Rtx-2080", "64GB"))
             laptops.add(Laptop("i7", "Rtx-2080", "128GB"))

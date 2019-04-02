@@ -6,7 +6,7 @@ interface ITreeTraversalRecursive: ITreeTraversal{
     fun read(tree: ITree, list: MutableList<Int>): MutableList<Int>
 
     override fun read(tree: ITree): MutableList<Int> {
-        var lst = mutableListOf<Int>()
+        val lst = mutableListOf<Int>()
         return this.read(tree, lst)
     }
 

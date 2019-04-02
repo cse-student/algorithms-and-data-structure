@@ -16,16 +16,8 @@ data class Vehicle(
         _formatter = NumberFormat.getCurrencyInstance()
     }
 
-    constructor(
-        type: String,
-        _local: Locale): this(type, null, null, _local, null)
+    constructor(type: String, _local: Locale): this(type, null, null, _local, null)
 
-    var discount = _discount
-        set(value){
-            if(value != null){
-                _discount = value
-            }
-        }
     var price = _price
         set(value){
             if (value != null) {
@@ -33,15 +25,5 @@ data class Vehicle(
             }
         }
 
-    var local = _local
-        set(value){
-            _local = value
-            Locale.setDefault(_local)
-            _formatter = NumberFormat.getCurrencyInstance()
-        }
 
-
-    fun printPrice(){
-        println("${_formatter!!.format(_price)}")
-    }
 }

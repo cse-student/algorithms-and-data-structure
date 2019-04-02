@@ -7,11 +7,11 @@ import java.util.*
 class PreOrderTraversalIterative {
     companion object : ITreeTraversalIterative {
         override fun read(tree: ITree): MutableList<Int> {
-            var result = mutableListOf<Int>()
+            val result = mutableListOf<Int>()
             var stack = Stack<ITree>()
             stack.add(tree)
             while (!stack.isEmpty()) {
-                var currentNode = stack.pop()
+                val currentNode = stack.pop()
                 result.add(currentNode.self)
                 stack = add(currentNode, stack)
             }
@@ -19,7 +19,7 @@ class PreOrderTraversalIterative {
         }
 
         private fun add(node: ITree, stack: Stack<ITree>): Stack<ITree> {
-            var result = stack
+            val result = stack
             if (node.rightNode != null){
                 result.add(node.rightNode)
             }

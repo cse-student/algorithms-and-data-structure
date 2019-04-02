@@ -6,14 +6,14 @@ import datastructure.custom.ITree
 class PostOrderTraversal{
     companion object: ITreeTraversalRecursive {
         override fun read(tree: ITree, list: MutableList<Int>): MutableList<Int>{
-            var lst = list
+            val lst = list
             if (tree.leftNode != null){
                 read(tree.leftNode!!, lst)
             }
             if (tree.rightNode != null){
                 read(tree.rightNode!!, lst)
             }
-            lst!!.add(tree.self)
+            lst.add(tree.self)
             return lst
         }
     }

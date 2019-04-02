@@ -4,7 +4,7 @@ import datastructure.custom.ITree
 
 interface ITreeTraversal {
     fun print(tree: ITree){
-        var list = this.read(tree)
+        val list = this.read(tree)
         println(list)
     }
 

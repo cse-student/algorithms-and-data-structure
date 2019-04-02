@@ -35,7 +35,7 @@ fun main(string: Array<String>){
 
     //region Linked List
     println("##### Custom Linked List #####")
-    var linkedList = LinkedList(1)
+    val linkedList = LinkedList(1)
     for(i in 2..5){
         linkedList.add(i)
     }
@@ -44,7 +44,7 @@ fun main(string: Array<String>){
     //endregion
 
     //region Binary Tree
-    var binaryTree = BinaryTree(5)
+    val binaryTree = BinaryTree(5)
     binaryTree.add(3)
     binaryTree.add(9)
     binaryTree.add(7)

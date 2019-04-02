@@ -1,4 +1,3 @@
 package algorithms.treetraversal.interfaces
 
-interface ITreeTraversalIterative: ITreeTraversal {
-}
+interface ITreeTraversalIterative: ITreeTraversal

@@ -9,7 +9,7 @@ class ArrayManipulations {
     companion object {
         private var stringArray: Array<String> = initStringArray()
         private var intArray: Array<Int> = initIntArray()
-        var anyArray: Array<Any> = initAnyArray()
+        private var anyArray: Array<Any> = initAnyArray()
 
         //region init methods
         private fun initStringArray(): Array<String> {
@@ -21,9 +21,9 @@ class ArrayManipulations {
         }
 
         private fun initAnyArray(): Array<Any>{
-            var laptop1 = Laptop("i7", "Rtx-2080", "64GB")
-            var laptop2 = Laptop("i5", "Gtx-1080", "64GB")
-            var car = Vehicle("Car", Locale.UK)
+            val laptop1 = Laptop("i7", "Rtx-2080", "64GB")
+            val laptop2 = Laptop("i5", "Gtx-1080", "64GB")
+            val car = Vehicle("Car", Locale.UK)
             car.price = 250000.00
             return arrayOf(laptop1, laptop2, car)
         }
@@ -32,21 +32,21 @@ class ArrayManipulations {
         //region print methods
         fun printStringArray() {
             println(stringArray)
-            for (string in stringArray!!) {
+            for (string in stringArray) {
                 println(string)
             }
         }
 
         fun printIntArray(){
             println(intArray)
-            for (i in stringArray!!) {
+            for (i in stringArray) {
                 println(i)
             }
         }
 
         fun printAnyArray(){
             println(anyArray)
-            for (i in anyArray!!) {
+            for (i in anyArray) {
                 println(i)
             }
         }

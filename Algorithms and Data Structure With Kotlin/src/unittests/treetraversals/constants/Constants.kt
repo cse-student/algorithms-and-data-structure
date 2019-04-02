@@ -5,27 +5,27 @@ import datastructure.custom.BinaryTree
 class Constants {
     companion object {
         fun binaryTree1(): BinaryTree{
-            var binaryTree = BinaryTree(1)
+            val binaryTree = BinaryTree(1)
             binaryTree.add(2)
             return binaryTree
         }
 
         fun binaryTree2(): BinaryTree{
-            var binaryTree = BinaryTree(1)
+            val binaryTree = BinaryTree(1)
             binaryTree.add(2)
             binaryTree.add(3)
             return binaryTree
         }
 
         fun binaryTree3(): BinaryTree{
-            var binaryTree = BinaryTree(2)
+            val binaryTree = BinaryTree(2)
             binaryTree.add(1)
             binaryTree.add(3)
             return binaryTree
         }
 
         fun binaryTree4(): BinaryTree{
-            var binaryTree = BinaryTree(5)
+            val binaryTree = BinaryTree(5)
             binaryTree.add(3)
             binaryTree.add(7)
             binaryTree.add(10)
@@ -33,7 +33,7 @@ class Constants {
         }
 
         fun binaryTree5(): BinaryTree{
-            var binaryTree = BinaryTree(1)
+            val binaryTree = BinaryTree(1)
             binaryTree.add(-10)
             binaryTree.add(11)
             binaryTree.add(5)
@@ -44,7 +44,7 @@ class Constants {
         }
 
         fun binaryTree6(): BinaryTree{
-            var binaryTree = BinaryTree(5)
+            val binaryTree = BinaryTree(5)
             binaryTree.add(3)
             binaryTree.add(9)
             binaryTree.add(1)
@@ -55,7 +55,7 @@ class Constants {
         }
 
         fun binaryTree7(): BinaryTree{
-            var binaryTree = BinaryTree(15)
+            val binaryTree = BinaryTree(15)
             binaryTree.add(12)
             binaryTree.add(25)
             binaryTree.add(7)

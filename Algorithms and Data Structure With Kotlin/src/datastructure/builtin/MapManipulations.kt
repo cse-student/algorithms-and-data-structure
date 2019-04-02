@@ -8,7 +8,7 @@ class MapManipulations{
     companion object {
         fun manipulatingMaps(){
 
-            var colorMap =
+            val colorMap =
                 mapOf(
                     Pair("tomato", "#FF6347"),
                     Pair("orangered", "#FF4500"),
@@ -19,10 +19,10 @@ class MapManipulations{
                 println("The color code of $color is $colorcode")
             }
 
-            var mutableMap = mutableMapOf<String, Laptop>()
+            val mutableMap = mutableMapOf<String, Laptop>()
             mutableMap["MSI"] = Laptop("i7", "Rtx-2080", "64GB", price = 5000.00)
-            mutableMap.put("HP", Laptop("i5", "intel hd", "16GB", price = 2500.00))
-            mutableMap.put("MSI", Laptop("i7", "gtx-1080", "32GB", price = 3000.00))
+            mutableMap["HP"] = Laptop("i5", "intel hd", "16GB", price = 2500.00)
+            mutableMap["MSI"] = Laptop("i7", "gtx-1080", "32GB", price = 3000.00)
             mutableMap["DELL"] = Laptop("i5", "gtx-1060", "16GB", price = 1500.00)
             //adding a key value pair having its key already existing as a key for
             //another key value pair in a map replaces the previous one with the new one
@@ -33,7 +33,7 @@ class MapManipulations{
                 totalPrice += laptop.price!!
             }
             Locale.setDefault(Locale.US)
-            var formatter = NumberFormat.getCurrencyInstance()
+            val formatter = NumberFormat.getCurrencyInstance()
             println("The total price of the laptops = ${formatter.format(totalPrice)}")
         }
     }

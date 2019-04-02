@@ -6,8 +6,8 @@ import datastructure.custom.ITree
 class PreOrderTraversal {
     companion object: ITreeTraversalRecursive {
         override fun read(tree: ITree, list: MutableList<Int>): MutableList<Int> {
-            var lst = list
-            lst!!.add(tree.self)
+            val lst = list
+            lst.add(tree.self)
             if (tree.leftNode != null){
                 PreOrderTraversal.read(tree.leftNode!!, lst)
             }
