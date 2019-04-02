@@ -191,9 +191,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1041" />
+    <option name="x" value="-14" />
+    <option name="width" value="982" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -599,17 +599,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt</url>
+          <url />
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalIterativeTest.kt</url>
+          <url />
           <line>57</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversalIterative.kt</url>
+          <url />
           <line>9</line>
           <properties />
           <option name="timeStamp" value="16" />
