@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/constants/Constants$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/constants/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/constants/Constants$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/constants/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/BubbleSort$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/BubbleSort$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/dataclass/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/dataclass/Laptop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/dataclass/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/dataclass/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ArrayManipulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/ListManipulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/MapManipulations$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/builtin/MapManipulations$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/custom/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/datastructure/custom/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/Constants$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/interfaces/ISortTest$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/interfaces/ISortTest$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/BinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/BinaryTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/Constants$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/InOrderTraversalIterativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/InOrderTraversalIterativeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/InOrderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/InOrderTraversalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PostOrderTraversalIterativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PostOrderTraversalIterativeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PostOrderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PostOrderTraversalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PreOrderTraversalIterativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PreOrderTraversalIterativeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PreOrderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/treetraversals/PreOrderTraversalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/InOrderTraversalIterative.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversalIterative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversalIterative.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversalIterative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/PreOrderTraversalIterative.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalIterative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalIterative.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/treetraversal/interfaces/ITreeTraversalRecursive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataclass/Laptop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataclass/Laptop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataclass/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataclass/Vehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/MapManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/builtin/SetManipulations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/custom/LinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/BinaryTreeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/BinaryTreeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalIterativeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalIterativeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalIterativeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalIterativeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/PreOrderTraversalIterativeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/PreOrderTraversalIterativeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/PreOrderTraversalTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/PreOrderTraversalTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/treetraversals/constants/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/treetraversals/constants/Constants.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +19,29 @@
       <file leaf-file-name="BubbleSortTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="95">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSort.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding>
+                <element signature="e#27#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +58,7 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="1045">
               <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="e#0#313#0" expanded="true" />
@@ -127,7 +97,7 @@
       <file leaf-file-name="ISortTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="304">
               <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#38#191#0" expanded="true" />
@@ -136,26 +106,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InOrderTraversalTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostOrderTraversalTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostOrderTraversalIterativeTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalIterativeTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1330">
               <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
@@ -231,6 +183,9 @@
         <option value="$PROJECT_DIR$/src/dataclass/Laptop.kt" />
         <option value="$PROJECT_DIR$/src/datastructure/builtin/ListManipulations.kt" />
         <option value="$PROJECT_DIR$/src/dataclass/Vehicle.kt" />
+        <option value="$PROJECT_DIR$/src/unittests/sorting/interfaces/InsertionSortTest.kt" />
+        <option value="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" />
       </list>
     </option>
   </component>
@@ -244,9 +199,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="984" />
-    <option name="height" value="1043" />
+    <option name="x" value="-16" />
+    <option name="width" value="985" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -254,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -315,14 +269,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittests" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unittests" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,6 +291,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,11 +317,11 @@
       <recent name="unittests" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="unittests.sorting" />
       <recent name="unittests.sorting.constants" />
       <recent name="unittests.treetraversals.constants" />
       <recent name="unittests.sorting.interfaces" />
       <recent name="unittests.treetraversals" />
-      <recent name="algorithms.sorting.interfaces" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="unittests" />
@@ -399,22 +346,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PreOrderTraversalTest">
+  <component name="RunManager" selected="JUnit.BubbleSortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="InOrderTraversalIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms and Data Structure With Kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittests.treetraversals.*" />
+          <option name="PATTERN" value="unittests.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.treetraversals" />
-      <option name="MAIN_CLASS_NAME" value="unittests.treetraversals.InOrderTraversalIterativeTest" />
+      <option name="PACKAGE_NAME" value="unittests.sorting" />
+      <option name="MAIN_CLASS_NAME" value="unittests.sorting.BubbleSortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -426,18 +373,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="InOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms and Data Structure With Kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittests.treetraversals.*" />
+          <option name="PATTERN" value="unittests.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.treetraversals" />
-      <option name="MAIN_CLASS_NAME" value="unittests.treetraversals.InOrderTraversalTest" />
+      <option name="PACKAGE_NAME" value="unittests.sorting" />
+      <option name="MAIN_CLASS_NAME" value="unittests.sorting.InsertionSortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -557,19 +504,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.InOrderTraversalIterativeTest" />
-      <item itemvalue="JUnit.InOrderTraversalTest" />
       <item itemvalue="JUnit.PostOrderTraversalIterativeTest" />
       <item itemvalue="JUnit.PostOrderTraversalTest" />
       <item itemvalue="JUnit.PreOrderTraversalTest" />
+      <item itemvalue="JUnit.InsertionSortTest" />
+      <item itemvalue="JUnit.BubbleSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest" />
         <item itemvalue="JUnit.PreOrderTraversalTest" />
         <item itemvalue="JUnit.PostOrderTraversalTest" />
         <item itemvalue="JUnit.PostOrderTraversalIterativeTest" />
-        <item itemvalue="JUnit.InOrderTraversalTest" />
-        <item itemvalue="JUnit.InOrderTraversalIterativeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -596,22 +543,11 @@
       <workItem from="1554232704960" duration="316000" />
       <workItem from="1554235366360" duration="1979000" />
       <workItem from="1554237410213" duration="27000" />
+      <workItem from="1554239080032" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BubbleSortTest - 2019.04.03 at 00h 28m 07s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BubbleSortTest - 2019.04.03 at 00h 28m 25s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BubbleSortTest - 2019.04.03 at 00h 34m 34s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2019.04.03 at 00h 34m 58s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InOrderTraversalIterativeTest - 2019.04.03 at 00h 35m 02s.xml">
       <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
     </history-entry>
@@ -630,27 +566,40 @@
     <history-entry file="PreOrderTraversalTest - 2019.04.03 at 00h 35m 26s.xml">
       <configuration name="PreOrderTraversalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 07m 08s.xml">
+      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 13m 32s.xml">
+      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 13m 52s.xml">
+      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleSortTest - 2019.04.03 at 01h 13m 55s.xml">
+      <configuration name="BubbleSortTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111519000" />
+    <option name="totallyTimeSpent" value="112082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47761193" weight="0.32944608" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3310719" side_tool="true" visible="true" weight="0.4037901" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33175033" side_tool="true" visible="true" weight="0.4037901" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6689281" weight="0.4037901" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66824967" weight="0.4037901" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -665,7 +614,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47761193" weight="0.32944608" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,20 +646,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms and Data Structure With Kotlin.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1012,7 +946,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="1045">
           <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="e#0#313#0" expanded="true" />
@@ -1043,7 +977,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="304">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#38#191#0" expanded="true" />
@@ -1051,10 +985,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#27#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
