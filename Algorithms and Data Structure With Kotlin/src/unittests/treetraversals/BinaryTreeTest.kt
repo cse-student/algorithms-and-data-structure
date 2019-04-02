@@ -2,6 +2,7 @@ package unittests.treetraversals
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import unittests.treetraversals.constants.Constants
 
 class BinaryTreeTest{
     @Test

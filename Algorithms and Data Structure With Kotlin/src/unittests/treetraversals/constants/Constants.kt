@@ -1,4 +1,4 @@
-package unittests.treetraversals
+package unittests.treetraversals.constants
 
 import datastructure.custom.BinaryTree
 
