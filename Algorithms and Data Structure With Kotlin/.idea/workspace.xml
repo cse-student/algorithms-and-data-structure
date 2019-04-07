@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittests/sorting/MergeSortTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/interfaces/InsertionSort$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/interfaces/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/InsertionSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/InsertionSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSortTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BubbleSortTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InsertionSort.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="532">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,41 +42,26 @@
       <file leaf-file-name="InsertionSortTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#27#166#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreOrderTraversalTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/PreOrderTraversalTest.kt">
+      <file leaf-file-name="MergeSort.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            <state relative-caret-position="-4">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <file leaf-file-name="MergeSortTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unittests/sorting/MergeSortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/constants/Constants.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -79,8 +69,8 @@
       <file leaf-file-name="Constants.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/constants/Constants.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -97,20 +87,11 @@
       <file leaf-file-name="ISortTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#38#191#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostOrderTraversalTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/PostOrderTraversalTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -186,6 +167,10 @@
         <option value="$PROJECT_DIR$/src/unittests/sorting/interfaces/InsertionSortTest.kt" />
         <option value="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" />
         <option value="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" />
+        <option value="$PROJECT_DIR$/src/unittests/sorting/MergeSortTest.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/interfaces/MergeSort.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt" />
       </list>
     </option>
   </component>
@@ -199,9 +184,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="width" value="985" />
-    <option name="height" value="1045" />
+    <option name="x" value="-19" />
+    <option name="width" value="987" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,7 +194,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,14 +227,6 @@
               <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="treetraversal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,29 +248,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittests" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unittests" type="462c0819:PsiDirectoryNode" />
-              <item name="treetraversals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms and Data Structure With Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms and Data Structure With Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unittests" type="462c0819:PsiDirectoryNode" />
-              <item name="treetraversals" type="462c0819:PsiDirectoryNode" />
               <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,11 +279,11 @@
       <recent name="unittests" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="algorithms.sorting" />
       <recent name="unittests.sorting" />
       <recent name="unittests.sorting.constants" />
       <recent name="unittests.treetraversals.constants" />
       <recent name="unittests.sorting.interfaces" />
-      <recent name="unittests.treetraversals" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="unittests" />
@@ -346,32 +308,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest">
+  <component name="RunManager" selected="JUnit.unittests.sorting in Algorithms and Data Structure With Kotlin">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms and Data Structure With Kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittests.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.sorting" />
-      <option name="MAIN_CLASS_NAME" value="unittests.sorting.BubbleSortTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms and Data Structure With Kotlin" />
@@ -396,64 +335,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PostOrderTraversalIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms and Data Structure With Kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittests.treetraversals.*" />
+          <option name="PATTERN" value="unittests.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.treetraversals" />
-      <option name="MAIN_CLASS_NAME" value="unittests.treetraversals.PostOrderTraversalIterativeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PostOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms and Data Structure With Kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittests.treetraversals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.treetraversals" />
-      <option name="MAIN_CLASS_NAME" value="unittests.treetraversals.PostOrderTraversalTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PreOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms and Data Structure With Kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittests.treetraversals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests.treetraversals" />
-      <option name="MAIN_CLASS_NAME" value="unittests.treetraversals.PreOrderTraversalTest" />
+      <option name="PACKAGE_NAME" value="unittests.sorting" />
+      <option name="MAIN_CLASS_NAME" value="unittests.sorting.MergeSortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -472,6 +365,75 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittests in Algorithms and Data Structure With Kotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms and Data Structure With Kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittests.sorting in Algorithms and Data Structure With Kotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms and Data Structure With Kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests.sorting" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittests.sorting.interfaces in Algorithms and Data Structure With Kotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms and Data Structure With Kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.sorting.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests.sorting.interfaces" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -504,19 +466,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PostOrderTraversalIterativeTest" />
-      <item itemvalue="JUnit.PostOrderTraversalTest" />
-      <item itemvalue="JUnit.PreOrderTraversalTest" />
       <item itemvalue="JUnit.InsertionSortTest" />
-      <item itemvalue="JUnit.BubbleSortTest" />
+      <item itemvalue="JUnit.MergeSortTest" />
+      <item itemvalue="JUnit.unittests in Algorithms and Data Structure With Kotlin" />
+      <item itemvalue="JUnit.unittests.sorting.interfaces in Algorithms and Data Structure With Kotlin" />
+      <item itemvalue="JUnit.unittests.sorting in Algorithms and Data Structure With Kotlin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.unittests.sorting in Algorithms and Data Structure With Kotlin" />
+        <item itemvalue="JUnit.unittests.sorting.interfaces in Algorithms and Data Structure With Kotlin" />
+        <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="JUnit.PreOrderTraversalTest" />
-        <item itemvalue="JUnit.PostOrderTraversalTest" />
-        <item itemvalue="JUnit.PostOrderTraversalIterativeTest" />
+        <item itemvalue="JUnit.unittests in Algorithms and Data Structure With Kotlin" />
       </list>
     </recent_temporary>
   </component>
@@ -544,72 +506,74 @@
       <workItem from="1554235366360" duration="1979000" />
       <workItem from="1554237410213" duration="27000" />
       <workItem from="1554239080032" duration="563000" />
+      <workItem from="1554326812859" duration="10047000" />
+      <workItem from="1554651492573" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InOrderTraversalIterativeTest - 2019.04.03 at 00h 35m 02s.xml">
-      <configuration name="InOrderTraversalIterativeTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 19h 59m 24s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InOrderTraversalTest - 2019.04.03 at 00h 35m 07s.xml">
-      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 19h 59m 57s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostOrderTraversalIterativeTest - 2019.04.03 at 00h 35m 13s.xml">
-      <configuration name="PostOrderTraversalIterativeTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 20h 00m 09s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostOrderTraversalTest - 2019.04.03 at 00h 35m 17s.xml">
-      <configuration name="PostOrderTraversalTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 21h 16m 42s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostOrderTraversalTest - 2019.04.03 at 00h 35m 21s.xml">
-      <configuration name="PostOrderTraversalTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 21h 17m 00s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreOrderTraversalTest - 2019.04.03 at 00h 35m 26s.xml">
-      <configuration name="PreOrderTraversalTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 21h 17m 13s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 07m 08s.xml">
-      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 21h 17m 45s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 13m 32s.xml">
-      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest - 2019.04.07 at 21h 18m 00s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest - 2019.04.03 at 01h 13m 52s.xml">
-      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    <history-entry file="unittests_sorting_interfaces_in_Algorithms_and_Data_Structure_With_Kotlin - 2019.04.07 at 21h 26m 08s.xml">
+      <configuration name="unittests.sorting.interfaces in Algorithms and Data Structure With Kotlin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSortTest - 2019.04.03 at 01h 13m 55s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
+    <history-entry file="unittests_sorting_in_Algorithms_and_Data_Structure_With_Kotlin - 2019.04.07 at 21h 26m 14s.xml">
+      <configuration name="unittests.sorting in Algorithms and Data Structure With Kotlin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112082000" />
+    <option name="totallyTimeSpent" value="125232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47761193" weight="0.32944608" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4762551" weight="0.32944608" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33175033" side_tool="true" visible="true" weight="0.4037901" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33582088" side_tool="true" visible="true" weight="0.4037901" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66824967" weight="0.4037901" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6641791" weight="0.4037901" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48507464" weight="0.39941692" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48236093" weight="0.39941692" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.6017639" weight="0.32944608" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.6017639" weight="0.32944608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -642,38 +606,10 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms and Data Structure With Kotlin.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="96" column="11" lean-forward="true" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms and Data Structure With Kotlin.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -791,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
@@ -961,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/constants/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalIterativeTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -975,37 +897,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/constants/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/stream/ForEachOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="e#6103#6104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#38#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="110">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/MergeSortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#27#166#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unittests/sorting/BubbleSortTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="-4">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>

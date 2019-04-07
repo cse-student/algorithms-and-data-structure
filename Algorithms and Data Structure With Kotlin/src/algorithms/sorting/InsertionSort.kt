@@ -1,4 +1,6 @@
-package algorithms.sorting.interfaces
+package algorithms.sorting
+
+import algorithms.sorting.interfaces.ISort
 
 class InsertionSort {
     companion object : ISort {
