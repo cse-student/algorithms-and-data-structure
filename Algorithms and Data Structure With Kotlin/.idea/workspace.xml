@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unittests/sorting/MergeSortTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/interfaces/InsertionSort$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/algorithms/sorting/interfaces/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/InsertionSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms and Data Structure With Kotlin/unittests/sorting/InsertionSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/interfaces/InsertionSort.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittests/sorting/InsertionSortTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSort.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeSort.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="399">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#313#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +92,7 @@
       <file leaf-file-name="ISortTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="152">
               <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#38#191#0" expanded="true" />
@@ -184,9 +189,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-19" />
-    <option name="width" value="987" />
-    <option name="height" value="1047" />
+    <option name="x" value="42" />
+    <option name="y" value="-30" />
+    <option name="width" value="1875" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,9 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +257,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,6 +514,7 @@
       <workItem from="1554239080032" duration="563000" />
       <workItem from="1554326812859" duration="10047000" />
       <workItem from="1554651492573" duration="3103000" />
+      <workItem from="1555246412113" duration="3781000" />
     </task>
     <servers />
   </component>
@@ -544,14 +551,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125232000" />
+    <option name="totallyTimeSpent" value="129013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4762551" weight="0.32944608" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -563,7 +570,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966079" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -578,6 +585,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4762551" weight="0.32944608" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/treetraversals/constants/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -915,9 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="183" selection-start-line="183" selection-end-line="183" />
-          <folding>
-            <element signature="e#6103#6104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="152">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#38#191#0" expanded="true" />
@@ -968,8 +963,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
