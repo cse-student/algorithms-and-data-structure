@@ -1,0 +1,20 @@
+*.exe
+*.bin
+*.cbp
+*.check_cache
+*.cmake
+*.ilk
+*.obj
+*.pdb
+*.rc
+*.res
+*.rsp
+*.includecache
+*.internal
+*.log
+*.make
+Makefile
+CMakeCache.txt
+CMakeFiles
+/Using the preprocessor/cmake-build-debug/Makefile
+/Using the preprocessor/cmake-build-debug/CMakeCache.txt
