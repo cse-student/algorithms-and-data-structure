@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28acd2d9-ae8d-4f3b-b4ee-6ee5f20119f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/Insertion Sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Insertion Sort/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/Insertion Sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Insertion Sort/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Bubble Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms and Data Structure With C/Bubble Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="InsertionSort.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="262">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -280,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InsertionSortTest">
+  <component name="RunManager" selected="JUnit.MergeSortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -446,9 +447,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="JUnit.BubbleSortTest" />
         <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest" />
         <item itemvalue="JUnit.unittests.sorting in Algorithms and Data Structure With Kotlin" />
         <item itemvalue="JUnit.unittests.sorting.interfaces in Algorithms and Data Structure With Kotlin" />
       </list>
@@ -483,7 +484,7 @@
       <workItem from="1555246412113" duration="3781000" />
       <workItem from="1557687399943" duration="2999000" />
       <workItem from="1558037674274" duration="2449000" />
-      <workItem from="1558264977187" duration="7685000" />
+      <workItem from="1558264977187" duration="8469000" />
     </task>
     <servers />
   </component>
@@ -520,7 +521,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142146000" />
+    <option name="totallyTimeSpent" value="142930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -568,29 +569,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/builtin/ArrayManipulations.kt</url>
+          <url />
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/unittests/treetraversals/InOrderTraversalIterativeTest.kt</url>
+          <url />
           <line>57</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/treetraversal/PostOrderTraversalIterative.kt</url>
+          <url />
           <line>9</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/unittests/sorting/interfaces/ISortTest.kt</url>
+          <url />
           <line>12</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.kt</url>
+          <url />
           <line>7</line>
           <properties />
           <option name="timeStamp" value="35" />
@@ -982,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="262">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
