@@ -11,7 +11,7 @@ class BubbleSort {
             }
             for(i in 0 until result.count()){
                 for(j in i until result.count()){
-                    if (result[j] > result[i]){
+                    if (result[i] > result[j]){
                         result = swap(result, i, j)
                     }
                 }
@@ -20,7 +20,7 @@ class BubbleSort {
         }
 
         private fun swap(list: MutableList<Int>, i: Int, j:Int): MutableList<Int>{
-            val result = list
+            var result = list
             val temp = result[i]
             result[i] = result[j]
             result[j] = temp

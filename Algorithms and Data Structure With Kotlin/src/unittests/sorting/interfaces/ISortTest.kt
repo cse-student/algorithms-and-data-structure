@@ -11,7 +11,9 @@ interface ISortTest {
     @Test
     fun sortList1(){
         val lst = Constants.list1()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -19,7 +21,9 @@ interface ISortTest {
     @Test
     fun sortList2(){
         val lst = Constants.list2()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -27,7 +31,9 @@ interface ISortTest {
     @Test
     fun sortList3(){
         val lst = Constants.list3()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -35,7 +41,9 @@ interface ISortTest {
     @Test
     fun sortList4(){
         val lst = Constants.list4()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -43,7 +51,9 @@ interface ISortTest {
     @Test
     fun sortList5(){
         val lst = Constants.list5()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -51,7 +61,9 @@ interface ISortTest {
     @Test
     fun sortList6(){
         val lst = Constants.list6()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -59,7 +71,9 @@ interface ISortTest {
     @Test
     fun sortList7(){
         val lst = Constants.list7()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -67,7 +81,9 @@ interface ISortTest {
     @Test
     fun sortList8(){
         val lst = Constants.list8()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -75,7 +91,9 @@ interface ISortTest {
     @Test
     fun sortList9(){
         val lst = Constants.list9()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
@@ -83,7 +101,9 @@ interface ISortTest {
     @Test
     fun sortList10(){
         val lst = Constants.list10()
-        val result = sort!!.sort(lst)
+        var result = mutableListOf<Int>()
+        result.addAll(lst)
+        result = sort!!.sort(result)
         lst.sort()
         assertEquals(lst, result)
     }
