@@ -19,21 +19,30 @@ class MergeSort {
             return result
         }
 
-        private fun merge(list1: List<Int>, list2: List<Int>): MutableList<Int> {
+        private fun merge(lst1: List<Int>, lst2: List<Int>): MutableList<Int> {
+            var list1 = mutableListOf<Int>()
+            list1.addAll(lst1)
+            var list2 = mutableListOf<Int>()
+            list2.addAll(lst2)
+
             var index1 = 0
             var index2 = 0
             var result = mutableListOf<Int>()
-            while (result.count() != list1.count() + list2.count()) {
+            while (result.count() != lst1.count() + lst2.count()) {
+                if (list1.isEmpty()){
+                    result.addAll(list2)
+                    return result
+                }
+                if (list2.isEmpty()){
+                    result.addAll(list1)
+                    return result
+                }
                 if (list1[index1] < list2[index2]) {
                     result.add(list1[index1])
-                    if (index1 < list1.count() - 1) {
-                        index1++
-                    }
+                    list1.removeAt(index1)
                 } else {
                     result.add(list2[index2])
-                    if (index2 < list2.count() - 1) {
-                        index2++
-                    }
+                    list2.removeAt(index2)
                 }
             }
             return result
