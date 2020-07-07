@@ -34,7 +34,7 @@ class MergeSort {
                     return result
                 }
                 if (list2.isEmpty()){
-                    result.addAll(list1)
+                        result.addAll(list1)
                     return result
                 }
                 if (list1[index1] < list2[index2]) {
